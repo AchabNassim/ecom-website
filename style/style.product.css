@@ -31,6 +31,7 @@ a, a:hover, a:focus, a:active{
 }
 
 .container-div {
+	margin-top: 30px;
 	width: 25%;
 }
 
@@ -63,7 +64,7 @@ a, a:hover, a:focus, a:active{
 	border-radius: 1px;
 	border: none;
 	cursor: pointer;
-	transition: ease-out 0.6s;
+	transition: ease-out 0.7s;
 }
 
 #addBtn {
@@ -73,14 +74,38 @@ a, a:hover, a:focus, a:active{
 	box-shadow: inset 400px 0 0 0 black;
 }
 
-#buyBtn {
+#buyBtn,#emptyBtn {
 	background-color: #000000;
 }
 
-#buyBtn:hover {
+#buyBtn:hover{
 	background-color: #F5F5F5;
-	border: 1px solid black;
+	border: solid 2px black;
 	color: black;
+
+}
+
+#emptyBtn:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+  color: black;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+}
 }
 
 details > summary {
@@ -96,12 +121,12 @@ details[open] > summary {
 	margin: 40px 0px 10px;
 }
 .returns summary {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .returns ul li {
-	margin: 10px 0px;
-	font-size: 19px;
+	margin: 13px 0px;
+	font-size: 16px;
 	color: #494747;
 }
 

@@ -1,8 +1,4 @@
-<?php 
-	if (isset($_POST['succes'])){
-		echo "data stored";
-	}
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
