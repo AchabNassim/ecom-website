@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+  font-family: 'lato',sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container p {
+  color: red;
+}
+
+input {
+  margin: 6px;
+  width: 440px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 3px;
+  border : solid 1px ; 
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="submit"]
+{
+    font-size:15px;
+}
+
+#submitBtn {
+  height: 50px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}

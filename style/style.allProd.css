@@ -1,0 +1,77 @@
+/*style for the products page*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+	font-family: 'lato',sans-serif;
+	box-sizing: border-box;
+	margin: 0px;
+	text-decoration: none;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+.product-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.product-div {
+	text-align: center;
+	flex-direction: column;
+	width: 30%;
+	margin: 40px auto;
+	transition: transform .2s;
+}
+.product-div:hover {
+	transform: scale(1.04);
+}
+
+a, a:hover, a:focus, a:active{
+     text-decoration: none;
+     color: #B08B66;;
+}
+
+
+.product-div h5{
+	font-size: 25px;
+	letter-spacing: 0.5px
+}
+
+.product-div p {
+	margin: 15px;
+}
+
+#categorie {
+	font-size: 17px;
+}
+
+.price{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+/*mobile view*/
+
+@media (max-width: 700px){
+	.product-container{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.product-div{
+		width: 100%;
+	}
+	#categorie {
+	font-size: 20px;
+	}
+	.price{
+		font-size: 18px;
+	}
+}
