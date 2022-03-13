@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div id="title">
-		<p><a href="index.php">HOME</a> > <?php echo $row["categorie"] ?></p>
+		<p><a href="index.php">HOME</a>> <?php echo $row["categorie"] ?></p>
 	</div>
 	<div class="container">
 		<div class="container-div">
@@ -30,8 +30,8 @@
 			<!-- checking if the item is available -->
 
 			<?php if(!$stock) :?>
-				<a href="#" ><input type="submit" class="button" id="addBtn" name="addCart" value="ADD TO CART" ></a><br>
-				<a href="" ><input type="submit" class="button" id="buyBtn" name="buyNow" value="BUY IT NOW" ></a>
+				<a href="#" ><input type="submit" class="button" id="addBtn" name="addCart" value="ADD TO CART" disabled ></a><br>
+				<a href="" ><input type="submit" class="button" id="buyBtn" name="buyNow" value="BUY IT NOW" disabled ></a>
 				<p style="color: red; margin-top: 25px;">the item You're looking for is no longer available, please check for something else</p>
 			<?php else :?>
 

@@ -19,6 +19,7 @@ body {
 	font-size: 19px;
 	color: #494747 !important;
 }
+
 a, a:hover, a:focus, a:active{
      text-decoration: none;
      color: inherit;
@@ -38,12 +39,13 @@ a, a:hover, a:focus, a:active{
 .container-div h2 {
 	font-size: 27px;
 	margin: 74px 0px 10px;
-	letter-spacing: 0.5px
+	letter-spacing: 0.5px;
+	color: #B08B66;
 }
 
 .container-div p {
-	font-size: 20px;
-	margin: 8px 0px;
+	font-size: 17px;
+	margin: 21px 0px;
 }
 
 #description {
@@ -55,19 +57,30 @@ a, a:hover, a:focus, a:active{
 
 .button {
 	margin: 8px 0px 0px;
-	width: 69%;
+	width: 90%;
 	height: 45px;
 	color: white;
-	border-radius: 3px;
+	border-radius: 1px;
 	border: none;
 	cursor: pointer;
+	transition: ease-out 0.6s;
 }
 
 #addBtn {
-	background-color: #1E8A90;
+	background-color: #00aeef;
 }
+#addBtn:hover {
+	box-shadow: inset 400px 0 0 0 black;
+}
+
 #buyBtn {
 	background-color: #000000;
+}
+
+#buyBtn:hover {
+	background-color: #F5F5F5;
+	border: 1px solid black;
+	color: black;
 }
 
 details > summary {
