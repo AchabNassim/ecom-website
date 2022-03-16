@@ -30,7 +30,7 @@
 			<div>
 				<input type="submit" name="submit" value="LOGIN" id="submitBtn">
 			</div>
-			<span id="create">Don't have an account yet? <a href="register.php">Create one ></a></span>
+			<span id="create">Don't have an account yet? <a href="register.html">Create one ></a></span>
 		</form>
 	</div>
 </body>
