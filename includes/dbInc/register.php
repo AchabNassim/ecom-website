@@ -33,6 +33,6 @@
 		$hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 		$sql = "INSERT INTO `client`(nom, prenom, adresse, telephone, email, pass) VALUES ('$nom','$prénom','$adresse','$num','$email','$hashedPassword')";
 		mysqli_query($conn,$sql);
-		header('location: ../../register.php?succes');
+		header('location: ../../register.html?succes');
 	}
 }
