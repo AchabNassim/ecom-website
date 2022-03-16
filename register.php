@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="style/style.register.css">
 </head>
 <body>
+	<h3>REGISTER NOW</h3>
 	<div class="container">
 		<form action="includes/dbInc/register.php" method="POST">
 		<div>

@@ -21,7 +21,7 @@ body {
 	text-align: center;
 	flex-direction: column;
 	width: 30%;
-	margin: 40px auto;
+	margin: 48px auto;
 	transition: transform .2s;
 }
 .product-div:hover {
@@ -36,16 +36,16 @@ a, a:hover, a:focus, a:active{
 
 
 .product-div h5{
-	font-size: 20px;
-	letter-spacing: 0.5px
+	font-size: 22px;
+	letter-spacing: 0.7px
 }
 
 .product-div p {
-	margin: 15px;
+	margin: 14px;
 }
 
 #categorie {
-	font-size: 16px;
+	font-size: 17px;
 }
 
 .price{

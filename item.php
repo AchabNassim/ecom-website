@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div id="title">
-		<p><a href="index.php">HOME</a>> <?php echo $row["categorie"] ?></p>
+		<p><a href="index.php">HOME</a>  >   <?php echo $row["categorie"] ?></p>
 	</div>
 	<div class="container">
 		<div class="container-div">
